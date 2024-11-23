@@ -1,0 +1,64 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+}
+  body {
+    background: #fff;
+    color: #000;
+    font-family: 'Franklin Gothic Book', 'Helvetica', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+  }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 0 20%;
+    padding: 1rem;
+    font-size: 120%;
+}
+
+#nycmap { 
+    height: 700px;
+    width: 700px;
+}
+
+a {
+    color: #023626;
+}
+
+a:hover {
+    color: #023626;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+  
+  #nycmap {
+    height: 400px;
+  width: 100%;
+  }
+  
+  h1 {
+  padding: 0.5rem;
+  }
+  
+  p {
+  margin: 1rem;
+  padding: 0.5rem;
+  }
+}
